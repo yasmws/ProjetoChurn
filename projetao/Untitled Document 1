@@ -1,0 +1,95 @@
+[I 2025-08-10 12:52:15,406] A new study created in memory with name: no-name-726812fe-988e-49e6-8c6f-5693e8872460
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 12:53:25,764] Trial 0 finished with value: 0.5041653965093054 and parameters: {'d_model': 32, 'n_heads': 8, 'n_layers': 3, 'dropout': 0.22579986423089815, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 0.0035402355734712363}. Best is trial 0 with value: 0.5041653965093054.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 12:55:07,359] Trial 1 finished with value: 0.5221551425613108 and parameters: {'d_model': 32, 'n_heads': 2, 'n_layers': 5, 'dropout': 0.29275434680627155, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 3.410170681967979e-05}. Best is trial 1 with value: 0.5221551425613108.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 12:56:51,380] Trial 2 finished with value: 0.4565986150175347 and parameters: {'d_model': 32, 'n_heads': 8, 'n_layers': 5, 'dropout': 0.4934448220779907, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0011138230204035926}. Best is trial 1 with value: 0.5221551425613108.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 12:58:43,625] Trial 3 finished with value: 0.5159504418420491 and parameters: {'d_model': 64, 'n_heads': 8, 'n_layers': 4, 'dropout': 0.268815094569653, 'activation': 'LeakyReLU', 'optimizer': 'AdamW', 'lr': 8.844492971651604e-05}. Best is trial 1 with value: 0.5221551425613108.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:00:44,372] Trial 4 finished with value: 0.520863252195825 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 3, 'dropout': 0.3825774068573832, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0008551115756527232}. Best is trial 1 with value: 0.5221551425613108.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:02:33,326] Trial 5 finished with value: 0.5214314767014999 and parameters: {'d_model': 64, 'n_heads': 8, 'n_layers': 4, 'dropout': 0.10268407637262658, 'activation': 'GELU', 'optimizer': 'AdamW', 'lr': 1.1871010599422007e-05}. Best is trial 1 with value: 0.5221551425613108.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:03:21,547] Trial 6 finished with value: 0.5319678098226845 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.4059895947524469, 'activation': 'GELU', 'optimizer': 'AdamW', 'lr': 7.443494706406297e-05}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:05:11,934] Trial 7 finished with value: 0.0 and parameters: {'d_model': 32, 'n_heads': 8, 'n_layers': 5, 'dropout': 0.20008738582981161, 'activation': 'LeakyReLU', 'optimizer': 'AdamW', 'lr': 0.003774557238093825}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:07:14,892] Trial 8 finished with value: 0.0 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 3, 'dropout': 0.29509053847171607, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 0.004450873816285013}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:08:00,069] Trial 9 finished with value: 0.5157587308386148 and parameters: {'d_model': 32, 'n_heads': 2, 'n_layers': 2, 'dropout': 0.20253669159655294, 'activation': 'ReLU', 'optimizer': 'AdamW', 'lr': 0.00239707222505489}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:08:33,406] Trial 10 finished with value: 0.5116982572433513 and parameters: {'d_model': 128, 'n_heads': 4, 'n_layers': 1, 'dropout': 0.3939639654448325, 'activation': 'GELU', 'optimizer': 'SGD', 'lr': 0.0001615549930743074}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:09:07,158] Trial 11 finished with value: 0.4874209084165448 and parameters: {'d_model': 128, 'n_heads': 4, 'n_layers': 1, 'dropout': 0.3813774045237956, 'activation': 'ReLU', 'optimizer': 'SGD', 'lr': 3.0201380704212883e-05}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:10:33,265] Trial 12 finished with value: 0.5095540301193531 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 2, 'dropout': 0.4777578682506493, 'activation': 'GELU', 'optimizer': 'AdamW', 'lr': 6.128522793917194e-05}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:11:16,850] Trial 13 finished with value: 0.5152699541361649 and parameters: {'d_model': 32, 'n_heads': 2, 'n_layers': 2, 'dropout': 0.3395680049910531, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 1.1555774003173447e-05}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:12:37,674] Trial 14 finished with value: 0.5121706262473089 and parameters: {'d_model': 64, 'n_heads': 4, 'n_layers': 4, 'dropout': 0.4395503332232029, 'activation': 'LeakyReLU', 'optimizer': 'SGD', 'lr': 0.0002624211334524041}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:14:19,422] Trial 15 finished with value: 0.518230248369377 and parameters: {'d_model': 32, 'n_heads': 8, 'n_layers': 5, 'dropout': 0.3355885011530854, 'activation': 'GELU', 'optimizer': 'AdamW', 'lr': 3.770298162882121e-05}. Best is trial 6 with value: 0.5319678098226845.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:15:04,283] Trial 16 finished with value: 0.5392001506054009 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 1, 'dropout': 0.14091525837125227, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 0.00011880256665145844}. Best is trial 16 with value: 0.5392001506054009.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:15:50,786] Trial 17 finished with value: 0.5286042316317974 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 1, 'dropout': 0.1434422670048093, 'activation': 'ReLU', 'optimizer': 'AdamW', 'lr': 0.000524790721014874}. Best is trial 16 with value: 0.5392001506054009.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:16:38,102] Trial 18 finished with value: 0.5298235826986865 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.4396183487509394, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.00013799355687499443}. Best is trial 16 with value: 0.5392001506054009.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:17:38,624] Trial 19 finished with value: 0.518814880573544 and parameters: {'d_model': 128, 'n_heads': 4, 'n_layers': 2, 'dropout': 0.15160648174233962, 'activation': 'LeakyReLU', 'optimizer': 'SGD', 'lr': 0.00924888328895632}. Best is trial 16 with value: 0.5392001506054009.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:18:24,760] Trial 20 finished with value: 0.5434523352040987 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.10385876792788251, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0005113480229540878}. Best is trial 20 with value: 0.5434523352040987.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:19:10,593] Trial 21 finished with value: 0.5640819935871806 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.11712022273353077, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0003437652586071963}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:20:35,034] Trial 22 finished with value: 0.533652621388903 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 2, 'dropout': 0.10593648941244631, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.00032297070849823296}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:21:21,463] Trial 23 finished with value: 0.5351396770101373 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.15286446464737297, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0004841104431407877}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:22:08,201] Trial 24 finished with value: 0.5106775256845248 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.13107092473478082, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0012380378603457072}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:23:30,561] Trial 25 finished with value: 0.5138822082689618 and parameters: {'d_model': 128, 'n_heads': 2, 'n_layers': 2, 'dropout': 0.17986943492876814, 'activation': 'ReLU', 'optimizer': 'Adam', 'lr': 0.0001910713182163302}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:24:02,813] Trial 26 finished with value: 0.526271747756679 and parameters: {'d_model': 64, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.2455092623672408, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.0005299020508686958}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:25:26,684] Trial 27 finished with value: 0.5307683207066018 and parameters: {'d_model': 128, 'n_heads': 8, 'n_layers': 2, 'dropout': 0.17813119084697154, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.000110486987830413}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:26:12,400] Trial 28 finished with value: 0.5468090048903577 and parameters: {'d_model': 128, 'n_heads': 4, 'n_layers': 1, 'dropout': 0.12004151648220981, 'activation': 'LeakyReLU', 'optimizer': 'Adam', 'lr': 0.00030397380160518736}. Best is trial 21 with value: 0.5640819935871806.
+/tmp/ipython-input-2380508469.py:25: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-08-10 13:28:18,643] Trial 29 finished with value: 0.4454508792367484 and parameters: {'d_model': 128, 'n_heads': 4, 'n_layers': 3, 'dropout': 0.230139574600401, 'activation': 'LeakyReLU', 'optimizer': 'Adam', 'lr': 0.0020121788502494254}. Best is trial 21 with value: 0.5640819935871806.
+
+Best trial:
+  KS: 0.5640819935871806
+  Params: {'d_model': 128, 'n_heads': 8, 'n_layers': 1, 'dropout': 0.11712022273353077, 'activation': 'GELU', 'optimizer': 'Adam', 'lr': 0.000343765258607196
