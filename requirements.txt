@@ -1,0 +1,44 @@
+# Projeto Churn - Dependências
+# Detecção de Churn em Telecomunicações usando ML/DL
+
+# Deep Learning Frameworks
+tensorflow>=2.8.0
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.6.0
+scipy>=1.7.0
+
+# Data Science e Manipulação de Dados
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Visualização
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Modelos Especializados
+tabpfn>=0.1.0
+tabular-transformers>=1.0.0
+
+# Utilitários e Datasets
+kagglehub>=0.1.0
+joblib>=1.0.0
+
+# Jupyter e Ambiente de Desenvolvimento
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Processamento adicional
+tqdm>=4.60.0
+
+# Para Google Colab (opcional)
+google-colab
+
+# Métricas e Avaliação adicional
+plotly>=5.0.0
+
+# Processamento de dados avançado
+imbalanced-learn>=0.8.0
